@@ -1,0 +1,2 @@
+-- Active: 1772736369733@@127.0.0.1@3306
+DELETE FROM frutaria WHERE id =(SELECT MAX(id) FROM frutaria);
