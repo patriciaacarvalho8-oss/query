@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM frutaria INNER JOIN frutaria_donos ON frutaria.id = frutaria_donos.frutaria_id INNER JOIN donos ON donos.id = frutaria_donos.dono_id WHERE frutaria.id = 2 
